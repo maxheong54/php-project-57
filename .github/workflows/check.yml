@@ -53,5 +53,5 @@ jobs:
           args: >
             -Dsonar.projectKey=maxheong54_php-project-57
             -Dsonar.organization=maxheong54
-            -Dsonar.sources=src/
+            -Dsonar.sources=app/
             -Dsonar.php.coverage.reportPaths=build/logs/clover.xml
