@@ -1,0 +1,10 @@
+parameters:
+    level: 8
+    paths:
+        - public
+        - app
+    ignoreErrors:
+        - identifier: missingType.generics
+        - identifier: missingType.iterableValue
+        
+    reportUnmatchedIgnoredErrors: false
