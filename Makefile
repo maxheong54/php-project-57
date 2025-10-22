@@ -8,7 +8,7 @@ validate:
 	composer validate
 lint:
 	composer exec --verbose phpcs -- --standard=PSR12 app tests
-	composer exec --verbose phpstan
+	./vendor/bin/phpstan analyse
 lint-fix:
 	composer exec --verbose phpcbf -- --standard=PSR12 app tests
 test:

@@ -1,10 +1,18 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+    - vendor/nesbot/carbon/extension.neon
+
 parameters:
-    level: 8
+
     paths:
-        - public
-        - app
+        - app/
+
+    # Level 10 is the highest level
+    level: 8
+
     ignoreErrors:
-        - identifier: missingType.generics
-        - identifier: missingType.iterableValue
-        
-    reportUnmatchedIgnoredErrors: false
+        - '#Cannot access property .* on App\\Models\\User\|null#'
+        - '#Cannot call method .* on App\\Models\\User\|null#'
+#
+#    excludePaths:
+#        - ./*/*/FileToBeExcluded.php
