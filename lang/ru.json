@@ -116,9 +116,9 @@
     "Localize": "Локализовать",
     "Location": "Местоположение",
     "Locked": "Доступ заблокирован",
-    "Log In": "Войти",
+    "Log In": "Вход",
     "Log in": "Войти",
-    "Log Out": "Выйти",
+    "Log Out": "Выход",
     "Login": "Войти",
     "Logout": "Выйти",
     "Loop Detected": "Обнаружен бесконечный цикл",
@@ -218,7 +218,6 @@
     "Switch To Role": "Переключиться на роль",
     "Switching Protocols": "Переключение протоколов",
     "Tag": "Тег",
-    "Tags": "Теги",
     "Temporary Redirect": "Временное перенаправление",
     "Thanks for signing up! Before getting started, could you verify your email address by clicking on the link we just emailed to you? If you didn't receive the email, we will gladly send you another.": "Спасибо за регистрацию! Прежде чем начать, не могли бы Вы подтвердить адрес своей электронной почты перейдя по ссылке, которую мы Вам отправили? Если Вы не получили письмо, мы с радостью отправим новое.",
     "The given data was invalid.": "Указанные данные недействительны.",
@@ -261,5 +260,11 @@
     "Your email address is unverified.": "Ваш адрес электронной почты не подтверждён.",
     "Task Manager": "Менеджер задач",
     "Oops! Something went wrong:": "Упс! Что-то пошло не так:",
-    "Welcome Aboard!": "Добро пожаловать на борт!"
+    "Welcome Aboard!": "Добро пожаловать на борт!",
+    "Tasks": "Задачи",
+    "Statuses": "Статусы",
+    "Tags": "Метки",
+    "Greetings from Hexlet!": "Привет от Хекслета!",
+    "This is a simple task manager on Laravel": "Это простой менеджер задач на Laravel",
+    "Click me": "Нажми меня"
 }
