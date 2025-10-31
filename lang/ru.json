@@ -240,7 +240,7 @@
     "Unsubscribe": "Отписаться",
     "Unsupported Media Type": "Неподдерживаемый тип данных",
     "Up": "Вверх",
-    "Update": "Сохранить",
+    "Update": "Обновить",
     "Update :name": "Обновить :name",
     "Update Password": "Обновить пароль",
     "Update your account's profile information and email address.": "Обновите информацию и адрес электронной почты в профиле учётной записи.",
@@ -266,5 +266,14 @@
     "Tags": "Метки",
     "Greetings from Hexlet!": "Привет от Хекслета!",
     "This is a simple task manager on Laravel": "Это простой менеджер задач на Laravel",
-    "Click me": "Нажми меня"
+    "Click me": "Нажми меня",
+    "Create a status": "Создать статус",
+    "Date of creation": "Дата создания",
+    "Are you sure": "Вы уверены",
+    "Change": "Изменить",
+    "ID": "ID",
+    "Change of status": "Изменение статуса",
+    "Status successfully created": "Статус успешно создан",
+    "Task status updated": "Статус успешно изменён",
+    "Task status deleted": "Статус успешно удалён"
 }
