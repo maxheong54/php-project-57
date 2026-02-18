@@ -13,11 +13,11 @@ validate:
 	composer validate
 
 lint:
-	composer exec --verbose phpcs -- --standard=PSR12 app tests
+	./vendor/bin/pint --test
 	./vendor/bin/phpstan analyse
 
 lint-fix:
-	composer exec --verbose phpcbf -- --standard=PSR12 app tests
+	./vendor/bin/pint
 
 test:
 	php artisan test
