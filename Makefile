@@ -7,6 +7,7 @@ install: setup
 
 setup:
 	composer install
+	cp -n .env.example .env
 	php artisan key:generate
 
 validate:
