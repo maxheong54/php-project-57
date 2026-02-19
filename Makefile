@@ -15,7 +15,7 @@ validate:
 
 lint:
 	./vendor/bin/pint --test
-	./vendor/bin/phpstan analyse
+	php -d memory_limit=512M ./vendor/bin/phpstan analyse
 
 lint-fix:
 	./vendor/bin/pint
