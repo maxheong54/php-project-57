@@ -38,3 +38,15 @@ jobs:
 
       - name: Check lint
         run: make lint
+
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v5
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          # NOTE: https://sonarcloud.io/project/information?id=<organization>_<reponame>
+          args: >
+            -Dsonar.projectKey=maxheong54_php-project-572
+            -Dsonar.organization=maxheong54
+            -Dsonar.sources=src/
+            -Dsonar.php.coverage.reportPaths=build/logs/clover.xml
