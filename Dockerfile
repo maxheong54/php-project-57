@@ -20,4 +20,4 @@ RUN composer install
 RUN npm ci
 RUN npm run build
 
-CMD ["bash", "-c", "php artisan migrate:refresh --seed --force && php artisan serve --host=0.0.0.0 --port=$PORT"]
+CMD php artisan migrate:refresh --seed --force && php artisan serve --host=0.0.0.0 --port=$PORT
